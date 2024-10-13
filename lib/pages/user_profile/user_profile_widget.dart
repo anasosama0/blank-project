@@ -543,7 +543,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                     .fromSTEB(
                                                         0.0, 4.0, 0.0, 0.0),
                                                 child: Text(
-                                                  'News & articles',
+                                                  'News',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -551,7 +551,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                         fontFamily: 'Inter',
                                                         color:
                                                             const Color(0xFF313131),
-                                                        fontSize: 12.0,
+                                                        fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w500,
