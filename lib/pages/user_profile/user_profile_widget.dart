@@ -1,6 +1,7 @@
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/widgets/user_info_container/user_info_container_widget.dart';
+import '/custom_code/widgets/index.dart' as custom_widgets;
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'user_profile_model.dart';
@@ -194,20 +195,13 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                             crossAxisAlignment:
                                                 CrossAxisAlignment.start,
                                             children: [
-                                              Padding(
-                                                padding: const EdgeInsetsDirectional
-                                                    .fromSTEB(
-                                                        0.0, 0.0, 10.0, 4.0),
-                                                child: ClipRRect(
-                                                  borderRadius:
-                                                      BorderRadius.circular(
-                                                          0.0),
-                                                  child: SvgPicture.asset(
-                                                    'assets/images/turnstile_1.svg',
-                                                    width: 24.0,
-                                                    height: 24.0,
-                                                    fit: BoxFit.cover,
-                                                  ),
+                                              const SizedBox(
+                                                width: 50.0,
+                                                height: 50.0,
+                                                child: custom_widgets
+                                                    .NewCustomWidget(
+                                                  width: 50.0,
+                                                  height: 50.0,
                                                 ),
                                               ),
                                               Padding(
@@ -285,7 +279,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                       BorderRadius.circular(
                                                           0.0),
                                                   child: SvgPicture.asset(
-                                                    'assets/images/calendar_(3)_1.svg',
+                                                    'assets/images/file-list-shield_(1).svg',
                                                     width: 24.0,
                                                     height: 24.0,
                                                     fit: BoxFit.cover,
@@ -549,7 +543,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                     .fromSTEB(
                                                         0.0, 4.0, 0.0, 0.0),
                                                 child: Text(
-                                                  'News & articles',
+                                                  'News',
                                                   style: FlutterFlowTheme.of(
                                                           context)
                                                       .bodyMedium
@@ -557,7 +551,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                         fontFamily: 'Inter',
                                                         color:
                                                             const Color(0xFF313131),
-                                                        fontSize: 12.0,
+                                                        fontSize: 14.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
                                                             FontWeight.w500,
