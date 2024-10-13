@@ -53,7 +53,7 @@ class _ContactInfoContainerWidgetState
                 topRight: Radius.circular(12.0),
               ),
               border: Border.all(
-                color: Color(0xffefefef),
+                color: FlutterFlowTheme.of(context).borderColor,
               ),
             ),
             child: Padding(

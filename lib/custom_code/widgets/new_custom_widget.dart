@@ -13,10 +13,14 @@ class NewCustomWidget extends StatefulWidget {
     super.key,
     this.width,
     this.height,
+    required this.pathh,
+    required this.colorr,
   });
 
   final double? width;
   final double? height;
+  final String pathh;
+  final Color colorr;
 
   @override
   State<NewCustomWidget> createState() => _NewCustomWidgetState();
@@ -30,8 +34,8 @@ class _NewCustomWidgetState extends State<NewCustomWidget> {
       width: 50,
       color: Colors.blue,
       child: SvgPicture.asset(
-        'assets/images/file-list-shield_(1).svg',
-        color: Colors.red,
+        widget.pathh,
+        color: widget.colorr,
       ),
     );
   }
