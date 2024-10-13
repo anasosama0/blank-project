@@ -1,3 +1,5 @@
+import 'package:flutter_svg/flutter_svg.dart';
+
 import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
@@ -45,7 +47,7 @@ class _UserInfoContainerWidgetState extends State<UserInfoContainerWidget> {
           color: FlutterFlowTheme.of(context).info,
           borderRadius: BorderRadius.circular(10.0),
           border: Border.all(
-            color: FlutterFlowTheme.of(context).borderColor,
+            color: Color(0xffefefef),
           ),
         ),
         child: Align(
@@ -70,6 +72,7 @@ class _UserInfoContainerWidgetState extends State<UserInfoContainerWidget> {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
+                    
                     Align(
                       alignment: const AlignmentDirectional(0.0, 0.0),
                       child: Text(

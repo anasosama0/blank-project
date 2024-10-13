@@ -641,8 +641,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Inter',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textGrey,
+                                        color: Color(0xff606060),
                                         fontSize: 12.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
@@ -667,8 +666,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(12.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -728,8 +726,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -746,8 +743,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                         color:
                                             FlutterFlowTheme.of(context).info,
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -805,8 +801,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -823,8 +818,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                         color:
                                             FlutterFlowTheme.of(context).info,
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -882,8 +876,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -900,8 +893,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                         color:
                                             FlutterFlowTheme.of(context).info,
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -959,8 +951,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -983,8 +974,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(0.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1042,8 +1032,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -1059,8 +1048,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Inter',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textGrey,
+                                        color: Color(0xff606060),
                                         fontSize: 12.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
@@ -1085,8 +1073,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(12.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1144,8 +1131,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -1162,8 +1148,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                         color:
                                             FlutterFlowTheme.of(context).info,
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1221,8 +1206,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -1245,8 +1229,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(0.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1304,8 +1287,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -1321,8 +1303,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Inter',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textGrey,
+                                        color: Color(0xff606060),
                                         fontSize: 12.0,
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
@@ -1347,8 +1328,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(12.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1402,8 +1382,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                               Icons
                                                   .keyboard_arrow_right_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .textGrey,
+                                                  Color(0xffefefef),
                                               size: 24.0,
                                             ),
                                           ],
@@ -1426,8 +1405,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(0.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1510,8 +1488,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                       topRight: Radius.circular(12.0),
                                     ),
                                     border: Border.all(
-                                      color: FlutterFlowTheme.of(context)
-                                          .borderColor,
+                                      color: Color(0xffefefef),
                                     ),
                                   ),
                                   child: Padding(
@@ -1537,8 +1514,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                             Icon(
                                               Icons.info_outline_rounded,
                                               color:
-                                                  FlutterFlowTheme.of(context)
-                                                      .redColor,
+                                                Color(0xffCC4D4D),
                                               size: 24.0,
                                             ),
                                             Text(
@@ -1548,9 +1524,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                   .bodyMedium
                                                   .override(
                                                     fontFamily: 'Inter',
-                                                    color: FlutterFlowTheme.of(
-                                                            context)
-                                                        .redColor,
+                                                    color: Color(0xffCC4D4D),
                                                     fontSize: 13.0,
                                                     letterSpacing: 0.0,
                                                     fontWeight: FontWeight.w500,
@@ -1585,8 +1559,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(12.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1636,9 +1609,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                       .override(
                                                         fontFamily: 'Inter',
                                                         color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .textGrey,
+                                                            Color(0xff606060),
                                                         fontSize: 10.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -1677,9 +1648,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                       .override(
                                                         fontFamily: 'Inter',
                                                         color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .textGrey,
+                                                            Color(0xff606060),
                                                         fontSize: 10.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -1718,9 +1687,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                                       .override(
                                                         fontFamily: 'Inter',
                                                         color:
-                                                            FlutterFlowTheme.of(
-                                                                    context)
-                                                                .textGrey,
+                                                            Color(0xff606060),
                                                         fontSize: 10.0,
                                                         letterSpacing: 0.0,
                                                         fontWeight:
@@ -1749,8 +1716,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                           topRight: Radius.circular(0.0),
                                         ),
                                         border: Border.all(
-                                          color: FlutterFlowTheme.of(context)
-                                              .borderColor,
+                                          color: Color(0xffEFEFEF),
                                         ),
                                       ),
                                       child: Padding(
@@ -1831,8 +1797,7 @@ class _UserProfileWidgetState extends State<UserProfileWidget> {
                                       .bodyMedium
                                       .override(
                                         fontFamily: 'Inter',
-                                        color: FlutterFlowTheme.of(context)
-                                            .textGrey,
+                                        color: Color(0xff606060),
                                         letterSpacing: 0.0,
                                         fontWeight: FontWeight.w500,
                                       ),

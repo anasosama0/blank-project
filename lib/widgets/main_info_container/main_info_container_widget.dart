@@ -51,7 +51,7 @@ class _MainInfoContainerWidgetState extends State<MainInfoContainerWidget> {
               topRight: Radius.circular(12.0),
             ),
             border: Border.all(
-              color: FlutterFlowTheme.of(context).borderColor,
+              color: Color(0xffefefef),
             ),
           ),
           child: Padding(
@@ -131,7 +131,7 @@ class _MainInfoContainerWidgetState extends State<MainInfoContainerWidget> {
           decoration: BoxDecoration(
             color: FlutterFlowTheme.of(context).info,
             border: Border.all(
-              color: FlutterFlowTheme.of(context).borderColor,
+              color: Color(0xffefefef),
             ),
           ),
           child: Padding(
@@ -218,7 +218,7 @@ class _MainInfoContainerWidgetState extends State<MainInfoContainerWidget> {
                 topRight: Radius.circular(0.0),
               ),
               border: Border.all(
-                color: FlutterFlowTheme.of(context).borderColor,
+                color: Color(0xffefefef),
               ),
             ),
             child: Padding(
